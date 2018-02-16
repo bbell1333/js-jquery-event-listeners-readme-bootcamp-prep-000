@@ -4,6 +4,12 @@ function getIt(){
   });
 }
 
+function framIt(){
+  $('img').on('load',function(){
+    return 
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
