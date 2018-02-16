@@ -6,10 +6,8 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on('load',addClass('tast');
+  $('img').on('load',addClass('tast'));
     
-    return;
-  );
 }
 
 $(document).ready(function(){
