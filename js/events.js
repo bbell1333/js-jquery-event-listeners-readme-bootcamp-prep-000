@@ -14,6 +14,7 @@ function pressIt(){
   $('input:first').on('keydown',function(){
     if (key.which == 71){
       alert('g was pressed');
+      return;
     }
   });
 }
