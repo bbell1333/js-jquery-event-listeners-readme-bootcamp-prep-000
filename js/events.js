@@ -7,7 +7,7 @@ function getIt(){
 
 function frameIt(){
   $('img').on('load',function(){
-    append('tasty');
+    $('img').append('tasty');
     return;
   });
 }
