@@ -1,12 +1,14 @@
 function getIt(){
   $('p').on('click',function(){
-    return alert('Hey!');
+    alert('Hey!');
+    return;
   });
 }
 
 function frameIt(){
   $('img').on('load',function(){
-    return addClass('tasty');
+    addClass('tasty');
+    return;
   });
 }
 
