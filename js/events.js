@@ -4,7 +4,7 @@ function getIt(){
   });
 }
 
-function framIt(){
+function frameIt(){
   $('img').on('load',function(){
     return addClass('tasty');
   });
@@ -14,4 +14,5 @@ $(document).ready(function(){
 
 // call functions here
 getIt();
+frameIt();
 });
